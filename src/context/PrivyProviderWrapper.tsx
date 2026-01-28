@@ -36,6 +36,7 @@ export function PrivyProviderWrapper({
         defaultChain: baseSepolia
       }}
     >
+      {
       <QueryClientProvider client={queryClient}>
         <WagmiProvider config={wagmiConfig} reconnectOnMount={true}>
             {children}

@@ -1,8 +1,46 @@
 # VersaGames
 
-Welcome to VersaGames, a collection of classic games with a modern, sleek interface. This application is built with Next.js, React, and Tailwind CSS.
+![VersaGames](https://img.shields.io/badge/VersaGames-2026-purple?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-## How to Play the Games
+Welcome to **VersaGames**, a collection of classic games with a modern, sleek interface. Built with Next.js, React, TypeScript, and Tailwind CSS.
+
+## ✨ Features
+
+- 🎮 **6 Classic Games** - Chess, Checkers, Tic-Tac-Toe, Scrabble, Sliding Puzzle, and Memory Match
+- 🎯 **Multiple Difficulty Levels** - Easy, Medium, and Hard modes
+- 📱 **Responsive Design** - Play on any device
+- 🎨 **Modern UI** - Beautiful dark theme with smooth animations
+- ⌨️ **Keyboard Shortcuts** - Enhanced accessibility
+- 📊 **Statistics Tracking** - Track your wins and progress
+- 🔐 **Web3 Integration** - Blockchain-enabled gaming with Privy authentication
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ (LTS recommended)
+- npm, yarn, or pnpm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/versagames.git
+cd versagames
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to start playing!
+
+## 🎮 How to Play the Games
 
 This project includes several classic games. Here's how to play each one:
 
@@ -75,3 +113,48 @@ This project includes several classic games. Here's how to play each one:
     3.  Click a piece and then click a highlighted square to make your move.
     4.  The game ends in checkmate, stalemate (a draw), or if a player resigns.
 
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `R` | Reset game |
+| `Ctrl + Z` | Undo move (where supported) |
+| `P` | Pause game |
+| `Escape` | Cancel/Close dialogs |
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15
+- **Language:** TypeScript 5
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Authentication:** Privy
+- **Blockchain:** Base Sepolia (Ethereum L2)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/              # Next.js app router pages
+├── components/       # React components
+│   ├── chess/        # Chess game components
+│   ├── checkers/     # Checkers game components
+│   ├── game/         # Shared game components
+│   ├── layout/       # Layout components
+│   └── ui/           # UI primitives
+├── hooks/            # Custom React hooks
+├── lib/              # Utility functions
+└── contracts/        # Smart contract ABIs
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by the VersaGames Team • © 2026

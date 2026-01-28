@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 import { cn } from '@/lib/utils';
 import { PrivyProviderWrapper } from '@/context/PrivyProviderWrapper';
 
@@ -61,6 +62,7 @@ export default function RootLayout({
           <div className="relative flex min-h-screen w-full flex-col">
             <Header />
             <main className="flex-1 animate-fade-in-up">{children}</main>
+            <Footer />
           </div>
           <Toaster />
         </PrivyProviderWrapper>

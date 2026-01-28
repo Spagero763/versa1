@@ -2,22 +2,6 @@
 
 Welcome to VersaGames, a collection of classic games with a modern, sleek interface. This application is built with Next.js, React, and Tailwind CSS.
 
-## Getting Started
-
-To run the project locally, follow these steps:
-
-1.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-2.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
-
-Open [http://localhost:9002](http://localhost:9002) with your browser to see the result.
-
 ## How to Play the Games
 
 This project includes several classic games. Here's how to play each one:
@@ -91,8 +75,3 @@ This project includes several classic games. Here's how to play each one:
     3.  Click a piece and then click a highlighted square to make your move.
     4.  The game ends in checkmate, stalemate (a draw), or if a player resigns.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
